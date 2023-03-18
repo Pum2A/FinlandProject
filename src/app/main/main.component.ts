@@ -11,4 +11,7 @@ export class MainComponent {
   Suomenlinna = 'Twierdzy Suomenlinna';
   MuzeumNarodowe = 'Muzeum Narodowe Finlandii';
   Arktikum = 'Arktikum';
+
+
+
 }

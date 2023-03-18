@@ -1,25 +1,43 @@
 footer{
-  height: 15vh;
+  height: 14vh;
   background-color: #000;
-}
-
-ul li a {
-  color: #fff;
-
 }
 li{
   list-style: none;
+  margin-top: 5px;
+  font-size: .7rem;
 }
 
 ul {
-margin: 0px 35px;
 padding-top: 25px;
 text-transform: uppercase;
+max-width: 450px;
 }
 p{
   margin: 15px 35px;
   margin-top: 20px;
   color: #fff;
   text-transform: uppercase;
+  max-width: 445px;
+  border-bottom: 3px solid #5a3441;
+  font-size: .7rem;
 
+  &:hover{
+    color: #5a3441;
+    transition: 0.3s;
+   }
+
+}
+
+ul li a{
+  margin: 0px 35px;
+  border-bottom: 3px solid #5a3441;
+  color: #fff;
+  transition: 0.3s;
+  padding-top:5px;
+
+ &:hover{
+  color: #5a3441;
+  transition: 0.3s;
+ }
 }

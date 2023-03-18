@@ -41,7 +41,11 @@ h2 span{
     align-items: center;
     margin: 35px 0px;
 }
-.box1 .button-cont button{
+.box1 .button-cont a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
     width: 250px;
     height: 70px;
     background-color: #000;
@@ -80,4 +84,8 @@ p{
     padding-top: 5px;
 
 
+}
+
+.box1 li span{
+  color: #fff;
 }

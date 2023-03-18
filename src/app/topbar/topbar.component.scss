@@ -45,7 +45,6 @@ nav a{
     font-size: 1rem;
     margin: 40px;
     text-transform: uppercase;
-    // padding: 35px;
     color: #fff;
     transition: 0.3s;
     padding: 6px;
@@ -60,84 +59,5 @@ nav a{
 nav a:hover{
     border-bottom:  2px solid #1271ed;
 
-    transition: 0.3s;
-}
-
-h1{
-    max-width: 600px;
-    font-size: 4rem;
-    text-transform: uppercase;
-    color: #fff;
-    text-shadow: 1px 1px 1px  #000;
-
-}
-
-.h1-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-top: 150px;
-    // z-index: 1000;
-
-}
-.background-finland{
-    background: linear-gradient(rgba(0, 0, 0, 0.434), rgba(0, 0, 0, 0.434)),url(../../assets/pexels-olivier-darny-3109271.jpg);
-    height: 1000px;
-    width: 100%;
-    background-color: black;
-    // opacity: 0.5;
-    background-size: cover;
-    // background-blend-mode: darken;
-    border-bottom: 1px solid gray;
-}
-
-
-h1 span{
-    color: #1271ed;
-}
-
-
-h2{
-    text-transform: uppercase;
-}
-
-.button-container{
-    margin: 50px 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.button-container h2{
-    color: #fff;
-    font-size: 3rem;
-    text-shadow: 1px 1px 1px  #000;
-}
-.button-container h2 span{
-    color: #1271ed;
-}
-.button-container button{
-    height: 60px;
-    width: 250px;
-    margin: 55px 25px;
-    background-color: #1271ed;
-    color: #fff;
-    border: 1px solid #fff;
-    font-family: 'Golos Text', sans-serif;
-    letter-spacing: 1px;
-    font-size: 1rem;
-    cursor: pointer;
-    text-shadow: 1px 1px 1px #000;
-    box-shadow: 1px 1px 1px #000;
-    transition: 0.3s;
-
-}
-
-
-
-.button-container button:hover{
-    background-color: #083774;
     transition: 0.3s;
 }
