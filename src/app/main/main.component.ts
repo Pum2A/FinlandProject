@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./main.component.scss']
 })
 export class MainComponent {
-  KatedraHelsinki = 'Katedra Helsinki';
+  KatedraHelsinki = 'Katedry Helsinki';
+  Tuomiokirkko = 'Tuomiokirkko';
+  Suomenlinna = 'Twierdzy Suomenlinna';
+  MuzeumNarodowe = 'Muzeum Narodowe Finlandii';
+  Arktikum = 'Arktikum';
 }
