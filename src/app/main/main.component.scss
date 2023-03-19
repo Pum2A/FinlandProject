@@ -1,10 +1,11 @@
 .background{
-    background: linear-gradient(rgba(0, 0, 0, 0.575), rgba(0, 0, 0, 0.575)),url(../../assets/pexels-mitchell-henderson-2004391.jpg);
+  background-color: rgb(18, 17, 17);
     height: 120vh;
     width: 100%;
     background-position: center;
     background-size: cover;
 }
+
 
 .atractions{
 display: flex;
@@ -16,14 +17,14 @@ flex-direction: column;
 .atractions h2{
     font-size: 3.5rem;
     margin: 55px 25px;
-    color: #1472ee;
+    color: #fff;
     text-shadow: 1px 1px 4px #000;
     text-transform: uppercase;
     opacity: 1;
 }
 
 h2 span{
-  color: #fff;
+  color: #e05e5e;
 }
 
 .temp{
@@ -53,7 +54,7 @@ h2 span{
     font-size: .9rem;
     font-family: 'Golos Text', sans-serif;
     font-weight: 600;
-    border: 1px solid #5a3441;
+    border: 1px solid #e05e5e;
     text-shadow: 1px 1px 2px #000;
     text-transform: uppercase;
     box-shadow: 1px 1px 3px #000;
@@ -80,7 +81,7 @@ p{
     text-shadow: 1px 1px 3px #000;
     margin: 0px 75px;
     opacity: 1;
-    border-top: 3px solid #5a3441;
+    border-top: 3px solid #e05e5e;
     padding-top: 5px;
 
 

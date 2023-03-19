@@ -1,6 +1,7 @@
 footer{
-  height: 14vh;
+  height: 12vh;
   background-color: #000;
+  border-top: 1px solid #fff;
 }
 li{
   list-style: none;
@@ -21,6 +22,7 @@ p{
   max-width: 445px;
   border-bottom: 3px solid #5a3441;
   font-size: .7rem;
+  cursor: pointer;
 
   &:hover{
     color: #5a3441;

@@ -1,0 +1,57 @@
+.background-finland{
+  background-color: rgb(18, 17, 17);
+  height: 120vh;
+  width: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 55px;
+  font-size: 3.5rem;
+  color: #fff;
+  letter-spacing: 3px;
+  gap: 15px;
+}
+
+h2 span{
+  color: #e05e5e;
+}
+
+.grid{
+  display: flex;
+  justify-content: center;
+}
+
+
+ul{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  gap: 5px;
+  list-style: none;
+  margin-top: 100px;
+  align-self: center;
+  text-align: left;
+}
+
+ul li{
+  padding: 15px;
+
+}
+
+.box1{
+
+
+}
+.box1 .li-container{
+  display: flex;
+
+  color: #fff;
+  margin: 15px 0px;
+  max-width: 200px;
+}
