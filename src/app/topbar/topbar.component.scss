@@ -14,10 +14,12 @@
 }
 
 .logo span{
-    color: #1271ed;
+    color: #e05e5e;
     font-size: 2rem;
 
 }
+
+
 
 .logo-container{
     height: 100%;
@@ -30,7 +32,6 @@ nav {
     display: flex;
     justify-content: right;
     align-items: center;
-// color: #fff;
 width: 90%;
 
 }
@@ -38,13 +39,14 @@ ul{
     display: flex;
     justify-content: right;
     align-items: center;
-// color: #fff;
 width: 90%;
+gap: 100px;
+margin-right: 45px;
+list-style: none;
 }
 
 nav a{
     font-size: 1rem;
-    margin: 40px;
     text-transform: uppercase;
     color: #fff;
     transition: 0.3s;
@@ -58,7 +60,15 @@ nav a{
 
 
 nav a:hover{
-    border-bottom:  2px solid #1271ed;
+    border-bottom:  2px solid #e05e5e;
 
     transition: 0.3s;
+}
+
+
+.active {
+  border-bottom: 2px solid #e05e5e;
+  padding: 6px;
+
+
 }

@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class TopbarComponent {
 
+
+  // isClicked:boolean = true;
+
+
+
+  // isClickedNav(){
+  //   this.isClicked = !this.isClicked;
+
+
+  // }
 }

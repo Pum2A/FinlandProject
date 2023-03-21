@@ -31,7 +31,7 @@ h2 span{
 form{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  // align-items: center;
   margin-bottom: 140px;
 
 }
@@ -42,16 +42,23 @@ form label {
 label{
   font-size: 1.6rem;
   color: #fff;
-  letter-spacing: 3px;
   text-transform: uppercase;
 }
 
 input{
-  width: 250px;
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+  width: 300px;
   height: 70px;
   border-radius: 5px;
   border: 2px solid rgba(224, 94, 94, 1);
+  background-color: #101010;
+  color: #fff;
   outline: none;
+  letter-spacing: 2px;
+  font-family: 'Golos Text', sans-serif;
+
 }
 
 
@@ -63,6 +70,14 @@ textarea{
   border: 2px solid rgba(224, 94, 94, 1);
   outline: none;
   resize: none;
-  box-shadow: none
+  box-shadow: none;
+  background-color: #101010;
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: 'Golos Text', sans-serif;
 
+}
+
+.email{
+  width: 450px;
 }
