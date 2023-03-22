@@ -72,3 +72,36 @@ nav a:hover{
 
 
 }
+
+
+@media screen and (max-width: 700px){
+
+  .logo{
+    // margin-left: 100px;
+  }
+  .logo span{
+    cursor: pointer;
+
+  }
+  .logo-container{
+    width: 30%;
+  }
+ul{
+  margin-right: 20px;
+  gap: 20px;
+}
+nav{
+  width: 70%;
+}
+
+nav a{
+  font-size: .7rem;
+  padding: 0px;
+
+}
+
+
+
+}
+
+
