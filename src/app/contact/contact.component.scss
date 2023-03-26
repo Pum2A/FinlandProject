@@ -1,5 +1,5 @@
 .background-finland{
-  background-color: rgb(18, 17, 17);
+  background-color: #0b0c13;
   height: 90vh;
   width: 100%;
 
@@ -51,14 +51,13 @@ input{
   align-items: center;
   width: 300px;
   height: 70px;
-  border-radius: 5px;
-  border: 2px solid rgba(224, 94, 94, 1);
-  background-color: #101010;
+  border: 2px solid #fff;
+  background-color: #0b0c13;
   color: #fff;
   outline: none;
   letter-spacing: 2px;
   font-family: 'Golos Text', sans-serif;
-  box-shadow: 1px 1px 5px #fff;
+
 
 }
 
@@ -67,16 +66,15 @@ textarea{
   margin: 10px  0px;
   width: 600px;
   height: 150px;
-  border-radius: 5px;
-  border: 2px solid rgba(224, 94, 94, 1);
+  border: 3px solid rgb(202, 118, 118);
   outline: none;
   resize: none;
   box-shadow: none;
-  background-color: #101010;
+  background-color: #0b0c13;
   color: #fff;
   font-size: 1.2rem;
   font-family: 'Golos Text', sans-serif;
-  box-shadow: 1px 1px 5px #fff;
+
 
 
 }
