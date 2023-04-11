@@ -1,5 +1,5 @@
 footer{
-  height:15vh;
+  height:8vh;
   background-color: #0b0c13;
   border-top: 1px solid #a63535;
 }
@@ -18,12 +18,12 @@ text-transform: uppercase;
 }
 p{
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
-  margin: 15px 35px;
+  margin: 10px 15px;
   color: #fff;
   text-transform: uppercase;
-  margin-top: 40px;
+  // margin-top: 20px;
   font-size: 1.5rem;
   cursor: pointer;
 
@@ -35,7 +35,7 @@ p{
 }
 
 .content-container{
-  width: 260px;
+  // width: 260px;
 }
 
 ul li a{
